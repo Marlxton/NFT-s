@@ -11,8 +11,9 @@ html {
 
 header {
     text-align: center;
-    margin: 3rem;
+    margin: 3rem auto;
     color: rgb(64, 0, 255);
+    width: 25%;
 }
 
 body {
@@ -30,6 +31,7 @@ h3:hover {
 
 a {
     text-decoration: none;
+    color: rgb(64, 0, 255)
 }
 
 .opis {
@@ -57,7 +59,12 @@ a {
     line-height: 1.3rem;
     color: rgb(4, 54, 8);
     font-weight: bold;
+    
 }
+
+/*.karakter:hover {
+    border: 1px solid black;
+}*/
 
 footer {
     text-align: center;
@@ -68,6 +75,12 @@ footer {
 @media screen and (max-width: 1370px) {
     .karakter {
         width: 50%;
+    }
+    header {
+        text-align: center;
+        margin: 3rem auto;
+        width: 100%;
+        
     }
   }
 
