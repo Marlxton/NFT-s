@@ -11,7 +11,7 @@ html {
 
 header {
     text-align: center;
-    margin: 1.5rem;
+    margin: 3rem;
     color: rgb(64, 0, 255);
 }
 
@@ -21,6 +21,15 @@ body {
 
 h3 {
     color: rgb(64, 0, 255);
+}
+
+h3:hover {
+    color: red;
+
+}
+
+a {
+    text-decoration: none;
 }
 
 .opis {
