@@ -62,14 +62,19 @@ a {
     
 }
 
-/*.karakter:hover {
-    border: 1px solid black;
-}*/
 
 footer {
     text-align: center;
     font-weight: bold;
     margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+footer a:hover {
+    color: red;
 }
 
 @media screen and (max-width: 1370px) {
