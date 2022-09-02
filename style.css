@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+header {
+    text-align: center;
+    margin: 1.5rem;
+    color: rgb(64, 0, 255);
+}
+
+body {
+    background-color: rgb(176, 194, 188);
+}
+
+h3 {
+    color: rgb(64, 0, 255);
+}
+
+.opis {
+    font-weight: bold;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.ponuda {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.karakter {
+    width: 25%;
+    padding: 2rem;
+    text-align: center;
+    line-height: 1.3rem;
+    color: rgb(4, 54, 8);
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1370px) {
+    .karakter {
+        width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 698px) {
+    .ponuda {
+        flex-direction: column;
+    }
+
+    .karakter {
+        width: 100%;
+        
+    }
+  }
+
