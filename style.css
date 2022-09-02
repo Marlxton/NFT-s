@@ -17,7 +17,8 @@ header {
 }
 
 body {
-    background-color: rgb(176, 194, 188);
+    background: rgb(224,60,212);
+    background: linear-gradient(75deg, rgba(224,60,212,1) 0%, rgba(204,241,96,1) 54%, rgba(110,96,241,1) 87%);
 }
 
 h3 {
@@ -81,6 +82,7 @@ footer a:hover {
     .karakter {
         width: 50%;
     }
+
     header {
         text-align: center;
         margin: 3rem auto;
