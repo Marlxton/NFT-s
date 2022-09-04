@@ -148,12 +148,9 @@ footer a:hover {
     }
 
     .donations {
-        display: flex;
-        flex-direction: row;
-        margin-left: 0;
+        text-align: left;
         width: 100%;
-        justify-content: space-between;
-        
+        margin-left: -15px;
     }
 
     header {
