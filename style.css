@@ -12,8 +12,8 @@ html {
 header {
     text-align: center;
     margin: 3rem auto;
-    color: rgb(64, 0, 255);
     width: 25%;
+    
 }
 
 body {
@@ -22,7 +22,9 @@ body {
 }
 
 h3 {
-    color: rgb(64, 0, 255);
+    color: rgb(16, 23, 37);
+    padding-bottom: 10px;
+   
 }
 
 h3:hover {
@@ -32,16 +34,33 @@ h3:hover {
 
 a {
     text-decoration: none;
-    color: rgb(64, 0, 255)
+    color: rgb(16, 36, 21);
+}
+
+img {
+    border-radius: 30%;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.avatar {
+    border-radius: 10%;
+    margin: 1rem auto;
+    
 }
 
 .opis {
     font-weight: bold;
-    margin-top: 3rem;
+    margin: 4rem auto;
     text-align: center;
     font-size: 1.6rem;
-    color: blue;
+    color: rgb(16, 36, 21);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    line-height: 2rem;
+
     
 }
 
@@ -61,6 +80,10 @@ a {
     color: rgb(4, 54, 8);
     font-weight: bold;
     
+}
+
+.karakter p {
+    padding-top: 20px;
 }
 
 
@@ -100,6 +123,10 @@ footer a:hover {
     .karakter {
         width: 100%;
         
+    }
+
+    .opis {
+        width: 100%;
     }
   }
 
