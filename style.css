@@ -150,7 +150,7 @@ footer a:hover {
     .donations {
         display: flex;
         flex-direction: row;
-        
+        margin-left: 0;
         width: 100%;
         justify-content: space-between;
         
