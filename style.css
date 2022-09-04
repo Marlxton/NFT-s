@@ -143,6 +143,10 @@ footer a:hover {
         width: 50%;
     }
 
+    .donate {
+        visibility: hidden;
+    }
+
     .donations {
         text-align: center;
         width: 100%;
