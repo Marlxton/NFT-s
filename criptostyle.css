@@ -36,7 +36,10 @@ header {
 @media screen and (max-width: 698px) {
     .adress {
         width: 100%;
-        display: flex;
-        font-size: 1.2em;
+        font-size: 0.95em;
+    }
+
+    header {
+        font-size: 1.8rem;
     }
 }
