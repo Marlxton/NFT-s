@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+header {
+    text-align: center;
+    margin: 3rem auto;
+    width: 25%;
+    
+}
+
+body {
+    background: rgb(224,60,212);
+    background: linear-gradient(75deg, rgba(224,60,212,1) 0%, rgba(204,241,96,1) 54%, rgba(110,96,241,1) 87%);
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.pages {
+    font-weight: bold;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pages span {
+    display: block;
+    text-align: center;
+}
+
+.pages a:hover {
+    color: rgb(172, 18, 77);
+    transform: scale(1.1);
+}
+
+.donations {
+    text-align: center center;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: end;
+    
+    /*border: 1px solid black;*/
+}
+
+.donate {
+    padding-top: 15px;
+}
+
+.cripto {
+    margin-right:  0.5rem;
+}
+
+h3 {
+    color: rgb(16, 23, 37);
+    padding-bottom: 20px;
+   
+}
+
+h3:hover {
+    color: red;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(16, 36, 21);
+}
+
+img {
+    border-radius: 30%;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.avatar {
+    border-radius: 10%;
+    margin: 1rem auto;
+    
+}
+
+.opis {
+    font-weight: bold;
+    margin: 4rem auto;
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(16, 36, 21);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    line-height: 2rem;
+
+    
+}
+
+.ponuda {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.karakter {
+    width: 25%;
+    padding: 2rem;
+    text-align: center;
+    line-height: 1.3rem;
+    color: rgb(4, 54, 8);
+    font-weight: bold;
+    
+}
+
+.karakter p {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+footer a:hover {
+    color: rgb(69, 17, 172);
+    background-color: aliceblue;
+}
+
+.button {
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
+#myBtn {
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+.link {
+    color: rgb(9, 110, 43);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.link:hover {
+    color: white;
+}
+
+@media screen and (max-width: 1370px) {
+    .pages {
+        flex-direction: column;
+    }
+
+    .pages a {
+        padding-bottom: 20px;
+    }
+    .karakter {
+        width: 50%;
+    }
+
+    .donate {
+        visibility: hidden;
+    }
+
+    .donations {
+        text-align: left;
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    header {
+        text-align: center;
+        margin: 3rem auto;
+        width: 100%;
+        
+    }
+  }
+
+  @media screen and (max-width: 698px) {
+
+    .navigation {
+        width: 100%;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+
+    .pages { 
+        font-size: 0.8em;
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 10px auto;
+        justify-content: space-between;
+        
+    }
+
+    span {
+        width: 50px;
+        margin: 0 auto;
+    }
+
+    .ponuda {
+        flex-direction: column;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .karakter {
+        width: 90%;
+        border: 1px solid black;
+        margin: 5px auto;
+        border-radius: 10px;
+    }
+
+    .opis {
+        width: 100%;
+    }
+
+    .cripto {
+        width: 50px;
+    }
+  }
+

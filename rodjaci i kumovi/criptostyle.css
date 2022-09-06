@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(173, 171, 171, 0.682);
+
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(43, 157, 92);
+}
+
+header {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cripto-container {
+    text-align: center;
+    border: 5px solid black;
+    background-color: white;
+    width: 40%;
+    margin: 5rem auto;
+    padding: 2rem;
+}
+
+.adress {
+    font-weight: bold;
+    padding-top: 2rem;
+    font-size: 2em;
+    word-wrap: break-word;
+    
+}
+
+@media screen and (max-width: 698px) {
+
+    .cripto-container {
+        width: 90%;
+    }
+
+    img {
+        width: fit-content;
+    }
+
+    .adress {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    header {
+        font-size: 1.8rem;
+    }
+}
