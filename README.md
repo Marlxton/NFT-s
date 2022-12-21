@@ -2,7 +2,7 @@
 
 Marlxton's NFT's
 
-<img src="https://marlxtonsnfts.netlify.app/img/avatar.jpeg" width="400" height="300">
+<img src="https://marlxtonsnfts.netlify.app/img/avatar.jpeg" width="400" height="350">
 
 [**Live on Netlify**](https://marlxtonsnfts.netlify.app/)
 
